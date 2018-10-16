@@ -2,14 +2,14 @@ package com.majkisoft;
 
 public class Smartphone
 {
-	String manufacturer;
-	String model;
-	String SN;
+	private String manufacturer;
+	private String model;
+	private String SN;
 
-	public Smartphone(String manufacturer, String model, String SN)
+	public Smartphone(String man, String mod, String serial)
 	{
-		this.manufacturer = manufacturer;
-		this.model = model;
-		this.SN = SN;
+		this.manufacturer = man;
+		this.model = mod;
+		this.SN = serial;
 	}
 }

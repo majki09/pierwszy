@@ -2,12 +2,12 @@ package com.majkisoft;
 
 public class Person
 {
-    String name;
-    int age;
+    private String name;
+    private int age;
 
-    public Person(String name, int age)
+    public Person(String n, int a)
     {
-        name="Bolek";
-        age=+5;
+        name = n;
+        age = a;
     }
 }

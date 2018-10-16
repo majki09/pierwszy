@@ -5,9 +5,14 @@ import java.util.Scanner;
 public class Main
 {
 
-//	public static class Osobka extends Person
+//	public class Osobka extends Person
 //	{
-//		int wzrost;
+//		private int wzrost;
+//
+//		public Osobka(int height)
+//		{
+//			wzrost = height;
+//		}
 //	}
 
 	public static void main(String[] args)
@@ -52,7 +57,7 @@ public class Main
 
 		Smartphone S4 = new Smartphone("Samsung", "S4", "7287");
 
-		System.out.println("Twoja szczęśliwa liczba to " + liczba + "! Zgadłeś za " + i + " razem i zajęło Ci to " + czasZgadywania + "s");
+		System.out.println("Twoja szczęśliwa liczba to " + liczba + "! Zgadłeś za " + i + " razem i zajęło Ci to tylko " + czasZgadywania + "s");
 //		System.out.println("Imię: " + osoba.name + ", wiek: " + osoba.age);
 //        System.out.println(Person("ala",6));
 	}
