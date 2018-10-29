@@ -31,7 +31,7 @@ public class Main
 		Person osoba = new Person("Bolesław");
 		osoba.setName("Majki");
 //		osoba.age = 24;
-//		osoba.age = 34;
+		osoba.setAge(34);
 		osoba.setName("Adam");
 
 
