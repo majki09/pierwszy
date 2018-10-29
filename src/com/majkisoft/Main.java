@@ -32,7 +32,7 @@ public class Main
 		osoba.setName("Majki");
 //		osoba.age = 24;
 //		osoba.age = 34;
-//		osoba.name = "ojc";
+//		osoba.name = "ojc";;
 
 
 		System.out.println(liczba);
