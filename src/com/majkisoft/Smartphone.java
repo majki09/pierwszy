@@ -7,9 +7,9 @@ public class Smartphone
 	private String SN;
 
 	public Smartphone(String man, String mod, String serial)
-	{
-		this.manufacturer = man;
-		this.model = mod;
-		this.SN = serial;
-	}
+		{
+			manufacturer = man;
+			model = mod;
+			SN = serial;
+		}
 }

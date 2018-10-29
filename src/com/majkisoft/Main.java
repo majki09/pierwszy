@@ -28,8 +28,8 @@ public class Main
 
 		System.out.println("Zgadnij liczbę całkowitą od 0 do 100:");
 
-		Person osoba = new Person("Bolesław", 45);
-//		osoba.name = "Majki";
+		Person osoba = new Person("Bolesław");
+		osoba.setName("Majki");
 //		osoba.age = 24;
 //		osoba.age = 34;
 //		osoba.name = "ojc";
