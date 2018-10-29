@@ -19,7 +19,7 @@ public class Main
 	{
 		// write your code here
 		int liczba = (int) (Math.random() * 100);
-		int zgadywana = 0;
+		int zgadywana;
 		int i = 0;
 
 		Scanner input = new Scanner(System.in);
@@ -32,7 +32,7 @@ public class Main
 		osoba.setName("Majki");
 //		osoba.age = 24;
 //		osoba.age = 34;
-//		osoba.name = "ojc";;
+		osoba.setName("Adam");
 
 
 		System.out.println(liczba);
